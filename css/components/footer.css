@@ -1,0 +1,33 @@
+
+li {
+  font-size: 20px;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  background-color: #0b1410;
+}
+
+.footer {
+  background-color: #0b1410;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  color:white;
+  padding: 50px;
+}
+
+.fab {
+  color:white;
+}
+
+.footer p {
+  margin-top: 50px;
+}
