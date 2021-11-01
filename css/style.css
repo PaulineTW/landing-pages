@@ -1,14 +1,10 @@
-/* Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
-
-/* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-
 @import url("components/banner.css");
 @import url("components/footer.css");
 @import url("components/cards.css");
 
-/* Utilities */
 body {
   margin: 0;
   font-family: Open Sans;
@@ -22,8 +18,6 @@ a {
   text-decoration: none;
 }
 
-/* Custom design below! */
-
 .description {
   margin: 100px;
 }
@@ -33,71 +27,35 @@ a {
 
 .container {
   padding : 20px 20px;
+  margin: 0 auto;
 }
 
 .container h2 {
   margin-bottom: 20px;
 }
 
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  } 
+h1 {
+  font-size: 20px;
+  line-height: normal;
 }
 
-@media (max-width: 600px) {
-  .container {
-      width: 300px;
-  }
-
-  h1 {
-      font-size: 20px;
-      line-height: normal;
-  }
-  
-  h2 {
-      font-size: 16px;
-  }
-  
-  a {
-      font-weight: 600;
-      font-size: 14px;
-  }
-  
-  p {
-      font-size: 14px;
-      padding: 10px;
-  }
+h2 {
+  font-size: 18px;
 }
 
-@media (max-width: 320px) {
-  .container {
- width: 200px;
-  }
-  
-  h1 {
-      font-size: 20px;
-      line-height: normal;
-  }
-  
-  h2 {
-      font-size: 16px;
-  }
-  
-  a {
-      font-weight: 600;
-      font-size: 14px;
-  }
-  
-  p {
-      font-size: 14px;
-      padding: 10px;
-  }
+a {
+  font-weight: 600;
+  font-size: 14px;
 }
 
+p {
+  font-size: 16px;
+  padding: 10px;
+}
 
+@media (max-width: 1250px)  {
+  .cards  {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
